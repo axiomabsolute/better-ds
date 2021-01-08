@@ -1,2 +1,7 @@
 # better-ds
-Exploring a better data science workflow
+
+`better-ds` is a personal exploration of a data science workflow intended for *small* data science teams working on moderately sized problems. The repository is set up as a follow-along project which builds the workflow from the ground up. Rather than focusing on particular algorithms or techniques, the intent is to focus on building a lightly opinionated structure using relatively general purpose tools which encourage positive practices end-to-end.
+
+The project builds a small sample data science task as a placeholder to demonstrate the process of building up the workflow in a step-by-step manner. Each step is represented as a distinct branch in the repository, named incrementally following the pattern `part-{n}`, with a corresponding markdown description in the `docs/` directory explaining the changes and how to replicate them yourself. The `main` branch of the repo will match the final `part-*` branch.
+
+The project uses [Python](https://www.python.org/) as the basis of the sample project, though the workflow should be fairly flexible and applicable to any data science work. You may also notice a `.vscode` directory, which contains settings for my editor of choice, VS Code. If you don't use VS Code, don't worry. Only a very small portion of the project will involve any editor setup.
