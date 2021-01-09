@@ -1,0 +1,9 @@
+md5: cdd774943c7385a547831861083aa2aa
+frozen: true
+deps:
+- etag: '"5ff4496a-edc20e"'
+  path: https://mtgjson.com/api/v5/AtomicCards.json.bz2
+outs:
+- md5: 37c79c9dee083316f17175165335d5e1
+  size: 15581710
+  path: AtomicCards.json.bz2
