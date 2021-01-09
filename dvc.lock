@@ -1,0 +1,10 @@
+decompress_atomic:
+  cmd: bzip2 --decompress --keep data/AtomicCards.json.bz2
+  deps:
+  - path: data/AtomicCards.json.bz2
+    md5: 37c79c9dee083316f17175165335d5e1
+    size: 15581710
+  outs:
+  - path: data/AtomicCards.json
+    md5: 2b493505053db3001221780a2380b626
+    size: 82363581

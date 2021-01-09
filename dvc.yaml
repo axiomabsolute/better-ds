@@ -1,0 +1,7 @@
+stages:
+  decompress_atomic:
+    cmd: bzip2 --decompress --keep data/AtomicCards.json.bz2
+    deps:
+    - data/AtomicCards.json.bz2
+    outs:
+    - data/AtomicCards.json
