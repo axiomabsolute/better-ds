@@ -1,4 +1,4 @@
 [core]
     remote = default
 ['remote "default"']
-    url = /Users/axiom/data
+    url = /home/axiom/data
